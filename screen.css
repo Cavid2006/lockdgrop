@@ -385,7 +385,9 @@ html {
     display: inline-block;
     /* Change from block to inline-block */
     margin-top: 20px;
-    float: right;
+    margin-left: 1300pt;
+    float: left;
+    position: fixed;
     /* Align the button to the right */
 }
 
