@@ -544,6 +544,10 @@ body, html {
     cursor: move; /* Indicates the element can be moved */
 }
 
+.tenor-gif-embed{
+    margin: auto;
+}
+
 .calculator-button {
     background: none;
     border: none;
