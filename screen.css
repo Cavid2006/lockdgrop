@@ -1,8 +1,7 @@
-body,
-html {
+body, html {
     margin: 0;
     padding: 0;
-    height: 175%;
+    height: 155%;
     width: 100%;
     /* Make sure the body and html fill the full screen */
     font-family: Arial, sans-serif;
