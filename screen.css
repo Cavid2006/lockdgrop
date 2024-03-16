@@ -1,0 +1,403 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 175%;
+    width: 100%;
+    /* Make sure the body and html fill the full screen */
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+.browser {
+    height: 100%;
+    width: 100%;
+    /* Change this from max-width to width to fill the full screen */
+    margin: 0;
+    /* Remove auto margin to extend to full screen */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    background-color: #70acf4;
+    padding-left: 5px;
+}
+
+.tab {
+    background-color: #ccc;
+    padding: 5px 15px;
+    margin-right: 5px;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tab.active {
+    background-color: white;
+}
+
+.tab span {
+    margin-right: 10px;
+}
+
+.close-tab {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.browser-header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #f0f0f0;
+    z-index: 1000;
+    /* Ensure the header is above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.content {
+    margin-top: 60px;
+    /* Adjust this value so your content starts below the fixed header */
+    margin-left: 80px;
+    /* Adjust based on the width of your sidebar */
+    padding: 20px;
+}
+
+
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.url-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.address-bar {
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 2px;
+    /* Adjust space inside the address bar */
+}
+
+.address-bar input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+
+
+.help-button {
+    background-color: #2769cb;
+    border: none;
+    padding: 5px 10px;
+    margin-left: -100px;
+    /* Adjust based on your design needs */
+    border-radius: 17px;
+    /* Match with address-bar for integrated look */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    /* Optional: adds some depth */
+    font-size: 14px;
+    color: #f2f2f2;
+}
+
+
+.quiz-container {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 25%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container2 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 51.9%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container3 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 80%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container4 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 109.3%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container5 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 135.3%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container6 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 135.3%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container7 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 162%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container8 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 190%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container9 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 217%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+.quiz-container10 {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    /* Centers the container horizontally */
+    position: absolute;
+    /* Positioning relative to the viewport */
+    top: 250%;
+    /* Move down by half of the viewport's height */
+    left: 50%;
+    /* Move right by half of the viewport's width */
+    transform: translate(-50%, -50%);
+    /* Offset the container by half of its own width and height */
+    border: 2px solid #f6f6f6;
+    /* Add a blue border */
+    box-shadow: none;
+    /* Remove the shadow */
+}
+
+
+
+.question-box {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 97.7%;
+    border: 1px solid #f1f1f1;
+    /* Adding a subtle border */
+    position: relative;
+    /* Needed for any offset positioning */
+    top: 5px;
+    /* Creates a subtle "offset" effect by pushing the box slightly down */
+    left: 5px;
+    /* Also moves the box slightly to the right */
+}
+
+.question-number {
+    background-color: #303c44;
+    color: white;
+    padding: 10px 20px;
+    /* Adjust to create a more rectangular shape */
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.question-content p {
+    margin: 7px;
+    margin-bottom: 10px;
+}
+
+.question-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(107, 107, 107, 0.55);
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #0874b4;
+    color: white;
+    padding: 10px 20px;
+    /* Adjust padding to your liking */
+    border-radius: 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+    /* Change from block to inline-block */
+    margin-top: 20px;
+    float: right;
+    /* Align the button to the right */
+}
+
+.submit-button:hover {
+    background-color: #0874b4;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* Ensure the background isn't transparent */
+    z-index: 1000;
+    /* Ensures it stays above other content */
+}

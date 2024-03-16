@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Browser Tabs</title>
+    <link rel="stylesheet" href="screen.css">
+    <script src="timer.js"></script>
+</head>
+
+<body>
+<div class="browser">
+    <!-- Sticky header container -->
+    <div class="sticky-header">
+        <div class="tabs">
+            <div class="tab active"><span>Canvas</span><button class="close-tab">x</button></div>
+            <!-- Add more tabs here -->
+        </div>
+
+        <div class="browser-header">
+            <button class="button back">←</button>
+            <button class="button forward">➝</button>
+            <button class="button refresh">⟳</button>
+            <div class="url-container">
+                <div class="address-bar">
+                    <input type="text" value="Help Center" readonly>
+                    <button class="help-button">?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Sticky header container -->
+
+    <!-- The rest of your content (quiz-container, etc.) follows here... -->
+
+    <div>
+        <button class="submit-button">Submit</button>
+    </div>
+
+    <div class="quiz-container">
+
+        <div class="question-box">
+            <div class="question-number">1</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Describe the end-to-end delivery process of a packet from one host to another across different
+                    networks, including the role of routers and switches.</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container2">
+        <div class="question-box">
+            <div class="question-number">2</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Explain the difference between static and dynamic IP addressing and the scenarios where each
+                    would be most effectively used.</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container3">
+        <div class="question-box">
+            <div class="question-number">3</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Describe the binary to decimal conversion process for an IPv4 address and how subnet masks are
+                    used to determine network and host portions.</p>
+                <form>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq3-option1" name="binary-decimal" value="option1">
+                        <label for="mcq3-option1">Convert each octet individually from binary to decimal, separating
+                            with dots. Subnet masks split the address into network and host by masking bits.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq3-option2" name="binary-decimal" value="option2">
+                        <label for="mcq3-option2">Add all binary digits together and divide by the number of network
+                            bits to find the decimal. Subnet masks are not used in conversion.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq3-option3" name="binary-decimal" value="option3">
+                        <label for="mcq3-option3">Binary to decimal conversion is irrelevant; subnet masks determine
+                            the entire IP address.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq3-option4" name="binary-decimal" value="option4">
+                        <label for="mcq3-option4">None of the above.</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="quiz-container4">
+        <div class="question-box">
+            <div class="question-number">4</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Explain how the OSI model layers correspond to real-world network functions and hardware (e.g.,
+                    which devices operate at which layers).</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container5">
+        <div class="question-box">
+            <div class="question-number">5</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Detail the steps a switch takes when it receives a frame, including how it determines whether to
+                    forward or filter the frame.</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container6">
+        <div class="question-box">
+            <div class="question-number">6</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Explain Collision Domains and Broadcast Domains in detail. How do switches and routers influence
+                    these domains?</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container7">
+        <div class="question-box">
+            <div class="question-number">7</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Describe the process and significance of the TCP three-way handshake in establishing a TCP
+                    connection.</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container8">
+        <div class="question-box">
+            <div class="question-number">8</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Explain the purpose and process of ACLs (Access Control Lists) in network routers and how they
+                    contribute to network security.</p>
+                <input type="text" placeholder="type your answer...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quiz-container9">
+        <div class="question-box">
+            <div class="question-number">9</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Discuss the importance of network protocols such as SNMP, ICMP, and ARP in network management and
+                    troubleshooting.</p>
+                <form>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq9-option1" name="network-protocols" value="option1">
+                        <label for="mcq9-option1">They provide essential functions for monitoring and directing
+                            network traffic and device communication.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq9-option2" name="network-protocols" value="option2">
+                        <label for="mcq9-option2">They are outdated technologies that have been replaced by more
+                            modern solutions.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq9-option3" name="network-protocols" value="option3">
+                        <label for="mcq9-option3">These protocols are only useful in very large networks and have
+                            little use in smaller setups.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="mcq9-option4" name="network-protocols" value="option4">
+                        <label for="mcq9-option4">They are mainly used for historical research and have no practical
+                            application in modern networks.</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="quiz-container10">
+        <div class="question-box">
+            <div class="question-number">10</div>
+            <div class="question-content">
+                <p>1 point</p>
+                <p>Explain the concept of QoS (Quality of Service) and how it can be used to prioritize different
+                    types of network traffic.</p>
+                <form>
+                    <div class="mcq-option">
+                        <input type="radio" id="option1" name="qos" value="option1">
+                        <label for="option1">Prioritizes traffic based on pre-defined rules to ensure bandwidth
+                            efficiency.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="option2" name="qos" value="option2">
+                        <label for="option2">Randomly selects packets to deliver without any priority, ensuring
+                            fairness.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="option3" name="qos" value="option3">
+                        <label for="option3">Increases the speed of all network traffic equally without
+                            prioritization.</label>
+                    </div>
+                    <div class="mcq-option">
+                        <input type="radio" id="option4" name="qos" value="option4">
+                        <label for="option4">None of the above.</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>
