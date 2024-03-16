@@ -239,7 +239,7 @@ html {
     /* Centers the container horizontally */
     position: absolute;
     /* Positioning relative to the viewport */
-    top: 125%;
+    top: 126%;
     /* Move down by half of the viewport's height */
     left: 50%;
     /* Move right by half of the viewport's width */
@@ -260,7 +260,7 @@ html {
     /* Centers the container horizontally */
     position: absolute;
     /* Positioning relative to the viewport */
-    top: 162%;
+    top: 145%;
     /* Move down by half of the viewport's height */
     left: 50%;
     /* Move right by half of the viewport's width */
@@ -281,7 +281,7 @@ html {
     /* Centers the container horizontally */
     position: absolute;
     /* Positioning relative to the viewport */
-    top: 190%;
+    top: 165%;
     /* Move down by half of the viewport's height */
     left: 50%;
     /* Move right by half of the viewport's width */
@@ -302,7 +302,7 @@ html {
     /* Centers the container horizontally */
     position: absolute;
     /* Positioning relative to the viewport */
-    top: 217%;
+    top: 185%;
     /* Move down by half of the viewport's height */
     left: 50%;
     /* Move right by half of the viewport's width */
@@ -323,7 +323,7 @@ html {
     /* Centers the container horizontally */
     position: absolute;
     /* Positioning relative to the viewport */
-    top: 250%;
+    top: 210%;
     /* Move down by half of the viewport's height */
     left: 50%;
     /* Move right by half of the viewport's width */
@@ -384,7 +384,7 @@ html {
     cursor: pointer;
     display: inline-block;
     /* Change from block to inline-block */
-    margin-top: 20px;
+    margin-top: 2px;
     margin-left: 1300pt;
     float: left;
     position: fixed;
@@ -402,4 +402,16 @@ html {
     /* Ensure the background isn't transparent */
     z-index: 1000;
     /* Ensures it stays above other content */
+}
+.floating-submit-box{
+    width: 100%;
+    height: 1.5%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 1000;
+    /* Ensure the header is above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
 }
