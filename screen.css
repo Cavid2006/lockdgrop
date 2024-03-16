@@ -28,6 +28,18 @@ html {
     padding-left: 5px;
 }
 
+.calculator-icon {
+    height: 30px; /* Adjust based on your icon size */
+    width: 30px; /* Adjust based on your icon size */
+    margin-right: 2px; /* Centers the icon in the available space */
+}
+
+.shuttle-icon {
+    height: 30px; /* Adjust based on your icon size */
+    width: 30px; /* Adjust based on your icon size */
+    margin-right: 850px;
+}
+
 .tab {
     background-color: #ccc;
     padding: 5px 15px;
