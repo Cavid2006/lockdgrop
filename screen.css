@@ -58,6 +58,14 @@ body, html {
 
 }
 
+.book{
+    height: 40px;
+}
+
+.multimedia{
+    height: 35px;
+}
+
 .close-tab {
     background-color: transparent;
     border: none;
