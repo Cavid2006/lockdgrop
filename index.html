@@ -42,6 +42,31 @@
 
         </div>
     </div>
+
+
+
+
+    <div id="calculator" class="calculator" style="display:none;">
+        <div class="calculator-display"><input type="text" readonly id="calc-display"></div>
+        <div class="calculator-buttons">
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="setOperator('+')">+</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="setOperator('-')">-</button>
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="setOperator('*')">*</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="setOperator('/')">/</button>
+        </div>
+    </div>
     <!-- End of Sticky header container -->
 
     <!-- The rest of your content (quiz-container, etc.) follows here... -->
@@ -53,9 +78,14 @@
         <div class="floating-submit-box">
             <button class="submit-button">Submit</button>
             <img src="shuttle.png" class="shuttle-icon">
-            <img src="calculator-svgrepo-com.svg" class="calculator-icon">
+            <!-- Combine the button and image -->
+            <button class="calculator-button" onclick="toggleCalculator()">
+                <img src="calculator-svgrepo-com.svg" class="calculator-icon">
+            </button>
         </div>
     </div>
+
+
 
     <div class="quiz-container">
 
@@ -281,6 +311,8 @@
         <div class="number">8</div>
         <div class="number">9</div>
     </div>
+
+
 
 
 </div>

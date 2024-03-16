@@ -28,11 +28,13 @@ body, html {
 }
 
 .calculator-icon {
-    height: 27px; /* Adjust based on your icon size */
-    width: 27px; /* Adjust based on your icon size */
-    margin-right: 2px; /* Centers the icon in the available space */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* Add any additional styling you want for the button */
 }
-
 .shuttle-icon {
     height: 30px; /* Adjust based on your icon size */
     width: 30px; /* Adjust based on your icon size */
@@ -529,3 +531,43 @@ body, html {
     height: 1px; /* Height of the horizontal line */
     background-color: #d0d0d0; /* Color of the horizontal line */
 }
+
+.calculator {
+    position: fixed; /* Or 'absolute' depending on your needs */
+    top: 50%; /* Initial position */
+    left: 50%; /* Initial position */
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #f2f2f2;
+    border: 1px solid #d4d4d4;
+    padding: 10px;
+    cursor: move; /* Indicates the element can be moved */
+}
+
+.calculator-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.calculator-icon {
+    width: 30px; /* or your desired size */
+    height: auto;
+}
+
+
+.calculator-display input {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+
+.calculator-buttons button {
+    width: 25%;
+    padding: 10px;
+    margin: 2px;
+    font-size: 16px;
+}
+
+/* Add more styles according to your preferences */
