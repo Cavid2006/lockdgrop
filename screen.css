@@ -476,3 +476,35 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     position: fixed;
 }
+
+.sidebar {
+    width: 50px; /* Adjust width as needed */
+    background-color: #f2f2f2; /* Match the background color to your theme */
+    padding-top: 75pt; /* Increase top padding to move items higher */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: center; /* Centers the content horizontally */
+    height: 100vh; /* Full height */
+    position: fixed; /* Make sidebar fixed during scroll */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left side of the viewport */
+}
+
+.icon img, .number {
+    margin: 5px 0; /* Adjust spacing as needed */
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.number {
+    background-color: #e4e4e4; /* Light grey background */
+    width: 30px; /* Match width with icons */
+    height: 30px; /* Square shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Round shape */
+    color: black; /* Number color */
+    font-size: 16px; /* Adjust font size as needed */
+}
