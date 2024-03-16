@@ -64,6 +64,12 @@ html {
     cursor: pointer;
 }
 
+.close-tabs{
+    margin-left: 1315pt;
+    background-color: darkred;
+    color: #f2f2f2;
+}
+
 .browser-header {
     display: flex;
     align-items: center;
