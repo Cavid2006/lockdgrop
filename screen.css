@@ -71,14 +71,30 @@ html {
 }
 
 .calculator-bar{
-    height: 20px;
+    height: 18px;
     padding-left: 20px;
+}
+.refresh-bar{
+    height: 19px;
+    padding-right: 10px;
+}
+
+.cancel{
+    margin-right: 5px;
 }
 
 .magnif-bar{
     height: 15px;
 }
 
+.left-bar{
+    padding-left: 10px;
+    height: 18px;
+}
+.right-bar{
+    padding-left: -10px;
+    height: 18px;
+}
 .newp-bar{
     height: 17px;
     padding-right: 20px;
@@ -91,6 +107,7 @@ html {
 .instance{
     margin-left: -10px;
 }
+
 
 .instance2{
     margin-left: -5px;
